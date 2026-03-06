@@ -7,7 +7,6 @@ theme = "github-style"
   author = "Trivikram"
   description = "A dream you dream alone is only a dream. A dream you dream together is reality"
   keywords = "blog, google analytics"
-  rss = true
   lastmod = true
   favicon = "/images/github-mark.png"
   avatar = "/images/avatar.jpg"
