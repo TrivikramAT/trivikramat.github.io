@@ -1,6 +1,5 @@
 +++
 date = '2026-03-06T00:45:03-08:00'
-draft = true
 title = 'Yosemite_Firefalls'
 +++
 
