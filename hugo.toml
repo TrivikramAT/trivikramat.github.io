@@ -1,0 +1,4 @@
+baseURL = 'https://trivikramat.github.io'
+languageCode = 'en-us'
+title = 'My Photography and Travel Blog'
+theme = "github-style"
