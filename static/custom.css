@@ -41,28 +41,16 @@
         display: block;
     }
 
-    /* Force the side-by-side container to behave like a standard block */
-    p:has(> img[alt="Sidephoto"]) {
+    /* Reset the parent container so it doesn't try to be a gallery */
+    p:has(img[alt="Sidephoto"]) {
         display: block !important;
-        margin: 0 !important;
         padding: 0 !important;
-        width: 100% !important;
     }
 
-    /* Force the 'Sidephoto' images to match your perfect full-width images */
+    /* Just let them inherit your 'Global' full-width image settings */
     img[alt="Sidephoto"] {
-        width: 100vw !important; /* Full screen width */
-        max-width: 100vw !important;
-        
-        /* The centering/negative margin logic to hit the edges */
-        position: relative;
-        left: 50%;
-        right: 50%;
-        margin-left: -50vw !important;
-        margin-right: -50vw !important;
-        
-        display: block !important;
-        height: auto !important;
+        width: 100vw !important;
+        /* Inherits the negative margin logic from your general img rule */
     }
 
     /* Keep text indented so it's readable */
