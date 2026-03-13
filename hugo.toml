@@ -13,3 +13,8 @@ theme = "github-style"
   headerIcon = "/images/github-mark-white.png"
   location = "USA"
   userStatusEmoji = "😀"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
