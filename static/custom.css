@@ -1,72 +1,51 @@
-/* Target the parent paragraph directly */
-p:has(> img[alt="Sidephoto"]) {
-    display: flex;
-    gap: 10px;
-    justify-content: center;
-}
+/* --- 1. DESKTOP (Side-by-Side + 1400px Box) --- */
+@media (min-width: 769px) {
+    .container-lg, .markdown-body {
+        max-width: 1400px !important;
+        margin: 0 auto;
+    }
 
-/* Ensure images take up half space minus the gap */
-img[alt="Sidephoto"] {
-    max-width: calc(50% - 5px);
-    height: auto;
-    display: block;
-}
-
-/* Stack on mobile */
-@media (max-width: 600px) {
+    /* Force images with the alt "Sidephoto" to be side-by-side */
     p:has(> img[alt="Sidephoto"]) {
-        flex-direction: column;
+        display: flex;
+        gap: 10px;
+        justify-content: center;
     }
+
     img[alt="Sidephoto"] {
-        max-width: 100%;
+        max-width: calc(50% - 5px);
+        height: auto;
+        display: block;
     }
 }
 
-/* Increase the site width for desktop */
-/*
-.container-lg, 
-.markdown-body {
-    max-width: 1400px !important;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 20px;
-    padding-right: 20px;
-}*/
+/* --- 2. MOBILE (Stacked + Edge-to-Edge) --- */
+@media (max-width: 768px) {
+    .container-lg, .markdown-body, .Box {
+        max-width: 100% !important;
+        padding: 0 !important;
+        border: none !important;
+    }
 
-/* Make images expand to the new, wider container */
-/*
-.markdown-body img {
-    width: 100%;
-    height: auto;
-} */
+    /* Standard stacking behavior for mobile */
+    .markdown-body img {
+        width: 100% !important;
+        display: block;
+        margin: 0 0 10px 0; /* Space between stacked images */
+    }
 
-/* 1. Remove the maximum width and horizontal padding from the main container */
-.container-lg, 
-.markdown-body, 
-.Box-body {
-    max-width: 1400px !important;
-    padding-left: 0 !important;
-    padding-right: 0 !important;
-}
+    /* Ensure Sidephoto tagged images also stack on mobile */
+    p:has(> img[alt="Sidephoto"]) {
+        display: block; /* Disables the flexbox from desktop */
+    }
 
-/* 2. Remove any borders or shadows that make it look like a "box" */
-.Box {
-    border: none !important;
-    box-shadow: none !important;
-}
+    img[alt="Sidephoto"] {
+        width: 100% !important; /* Take full width on mobile */
+    }
 
-/* 3. Ensure images fill the now-empty screen space */
-.markdown-body img {
-    width: 100% !important;
-    margin: 0 !important;
-    display: block;
-}
-
-/* 4. Keep your text from hitting the very edge of the glass */
-.markdown-body p, 
-.markdown-body h1, 
-.markdown-body h2, 
-.markdown-body h3 {
-    padding-left: 20px;
-    padding-right: 20px;
+    /* Keep text indented so it's readable */
+    .markdown-body p, .markdown-body h1, .markdown-body h2 {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
 }
