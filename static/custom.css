@@ -1,0 +1,23 @@
+/* Target the parent paragraph directly */
+p:has(> img[alt="Sidephoto"]) {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+/* Ensure images take up half space minus the gap */
+img[alt="Sidephoto"] {
+    max-width: calc(50% - 5px);
+    height: auto;
+    display: block;
+}
+
+/* Stack on mobile */
+@media (max-width: 600px) {
+    p:has(> img[alt="Sidephoto"]) {
+        flex-direction: column;
+    }
+    img[alt="Sidephoto"] {
+        max-width: 100%;
+    }
+}

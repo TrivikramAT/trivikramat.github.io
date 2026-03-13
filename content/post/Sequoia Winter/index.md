@@ -10,10 +10,8 @@ title = 'Sequoia Winter'
 
 They _literally_ touch the sky! When it snows like this, everything else is hidden - small shrubs, grass, flowers. Only the Sequoias stick out and draw your complete attention. Boy did they ever!
 ### Struck by lightning? Just brush it off
-{{< sidebyside >}}
-![](20260104_124954.jpg)
-![](20260104_124822.jpg)
-{{< /sidebyside >}}
+![Sidephoto](20260104_124954.jpg)
+![Sidephoto](20260104_124822.jpg)
 
 A disadvantage to being this tall is that they're often struck by lightning. But these trees are some hardy sons of bitches. Massive hole in their trunk where the wood is burnt off, and they still stand! They're known to take repeated lightning strikes every year and keep chugging along.
 ### McKinley Tree, the absolute unit of a Sequoia

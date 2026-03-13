@@ -13,3 +13,4 @@ theme = "github-style"
   headerIcon = "/images/github-mark-white.png"
   location = "USA"
   userStatusEmoji = "😀"
+  custom_css = ["custom.css"]
