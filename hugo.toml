@@ -76,5 +76,4 @@ timeout = "600s"
     emitMetadata = 0
     inputPosition = "bottom"
     lang = "en"
-    lightTheme       = "light"
-    darkTheme        = "dark_dimmed"
+    theme = "preferred_color_scheme"
