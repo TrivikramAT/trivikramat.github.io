@@ -65,7 +65,7 @@ rssFullContent = true
   provider = "giscus"
 
   [comments.giscus]
-    repo = "TrivikramAT/github-blog"
+    repo = "TrivikramAT/trivikramat.github.io"
     repoId = "R_kgDOLDWvPQ"
     category = "Announcements"
     categoryId = "DIC_kwDOLDWvPc4C4XXG"
