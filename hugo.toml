@@ -1,16 +1,58 @@
 baseURL = 'https://trivikramat.github.io'
 languageCode = 'en-us'
 title = 'My Photography and Travel Blog'
-theme = "github-style"
+theme = "hugo-theme-stack"
+favicon        = "img/avatar.jpg"
+mainSections   = ["post"]
+rssFullContent = true
 
 [params]
-  author = "Trivikram"
-  description = "A dream you dream alone is only a dream. A dream you dream together is reality"
-  keywords = "blog, google analytics"
-  lastmod = true
-  favicon = "/images/github-mark.png"
-  avatar = "/images/avatar.jpg"
-  headerIcon = "/images/github-mark-white.png"
-  location = "USA"
-  userStatusEmoji = "😀"
-  custom_css = ["custom.css"]
+  [params.sidebar]
+    subtitle = "A dream you dream alone is only a dream. A dream you dream together is reality"
+    avatar   = "img/avatar.jpg"
+
+  [params.widgets]
+    page     = [{ type = "toc" }]
+
+[[menu.social]]
+  identifier = "github"
+  name       = "GitHub"
+  url        = "https://github.com/TrivikramAT"
+
+  [menu.social.params]
+      icon = "brand-github"
+
+[[menu.social]]
+  identifier = "email"
+  name       = "Email"
+  url        = "mailto:nosynarwhal@proton.me"
+
+  [menu.social.params]
+      icon = "mail"
+
+[goldmark]
+  [goldmark.extensions]
+    [goldmark.extensions.passthrough]
+      enable = true
+
+      [goldmark.extensions.passthrough.delimiters]
+        block  = [["\\[", "\\]"], ["$$", "$$"]]
+        inline = [["\\(", "\\)"]]
+
+  [goldmark.renderer]
+    ## Set to true if you have HTML content inside Markdown
+    unsafe = true
+
+[tableOfContents]
+  endLevel   = 4
+  ordered    = true
+  startLevel = 2
+
+[highlight]
+  noClasses          = false
+  codeFences         = true
+  guessSyntax        = true
+  lineNoStart        = 1
+  lineNos            = true
+  lineNumbersInTable = true
+  tabWidth           = 4

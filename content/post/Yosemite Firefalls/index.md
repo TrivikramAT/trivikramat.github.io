@@ -1,6 +1,7 @@
 +++
 date = '2026-03-06T00:45:03-08:00'
 title = 'Yosemite in Winter'
+image = 'DSC01489.jpg'
 +++
 
 # Highlights
