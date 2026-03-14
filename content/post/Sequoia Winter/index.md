@@ -1,7 +1,7 @@
 ---
 date: 2026-03-12
-title: 'Sequoia Winter'
-image: '20260104_130655.jpg'
+title: Sequoia Winter
+image: 20260104_130655.jpg
 display_image: false
 ---
 
