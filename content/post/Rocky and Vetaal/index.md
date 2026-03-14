@@ -3,6 +3,7 @@ date: 2026-03-14
 title: Rocky and Vetaal
 image: 20251018_173537.jpg
 display_image: false
+comments: true
 ---
 ## Rocky
 ![](DSC09371.jpg)

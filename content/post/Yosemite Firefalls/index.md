@@ -1,8 +1,10 @@
-+++
-date = '2026-03-06T00:45:03-08:00'
-title = 'Yosemite in Winter'
-image = 'DSC01489.jpg'
-+++
+---
+date: 2026-03-06
+title: Yosemite in Winter
+image: DSC01489.jpg
+comments: true
+display_image: false
+---
 
 # Highlights
 
