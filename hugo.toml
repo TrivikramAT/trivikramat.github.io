@@ -59,3 +59,21 @@ rssFullContent = true
   lineNos            = true
   lineNumbersInTable = true
   tabWidth           = 4
+
+[comments]
+  enabled  = true
+  provider = "giscus"
+
+  [comments.giscus]
+    repo = "TrivikramAT/github-blog"
+    repoId = "R_kgDOLDWvPQ"
+    category = "Announcements"
+    categoryId = "DIC_kwDOLDWvPc4C4XXG"
+    mapping = "pathname"
+    strict = 0
+    reactionsEnabled = 1
+    emitMetadata = 0
+    inputPosition = "bottom"
+    lang = "en"
+    lightTheme       = "light"
+    darkTheme        = "dark_dimmed"
