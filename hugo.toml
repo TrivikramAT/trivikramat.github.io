@@ -5,6 +5,7 @@ theme = "hugo-theme-stack"
 favicon        = "img/avatar.jpg"
 mainSections   = ["post"]
 rssFullContent = true
+timeout = "600s"
 
 [params]
   [params.sidebar]
