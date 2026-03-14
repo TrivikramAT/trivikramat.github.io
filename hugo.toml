@@ -18,6 +18,23 @@ timeout = "600s"
   [params.widgets]
     page     = [{ type = "toc" }]
 
+  [params.comments]
+    enabled  = true
+    provider = "giscus"
+
+  [params.comments.giscus]
+    repo = "TrivikramAT/trivikramat.github.io"
+    repo_id = "R_kgDOLDWvPQ"
+    category = "Announcements"
+    category_id = "DIC_kwDOLDWvPc4C4XXG"
+    mapping = "pathname"
+    strict = 0
+    reactionsEnabled = 1
+    emitMetadata = 0
+    inputPosition = "bottom"
+    lang = "en"
+    theme = "preferred_color_scheme"
+
 [[menu.social]]
   identifier = "github"
   name       = "GitHub"
@@ -34,18 +51,18 @@ timeout = "600s"
   [menu.social.params]
       icon = "mail"
 
-[goldmark]
-  [goldmark.extensions]
-    [goldmark.extensions.passthrough]
-      enable = true
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
 
-      [goldmark.extensions.passthrough.delimiters]
-        block  = [["\\[", "\\]"], ["$$", "$$"]]
-        inline = [["\\(", "\\)"]]
+    [markup.goldmark.extensions]
+      [markup.goldmark.extensions.passthrough]
+        enable = true
 
-  [goldmark.renderer]
-    ## Set to true if you have HTML content inside Markdown
-    unsafe = true
+        [markup.goldmark.extensions.passthrough.delimiters]
+          block  = [["\\[", "\\]"], ["$$", "$$"]]
+          inline = [["\\(", "\\)"]]
 
 [tableOfContents]
   endLevel   = 4
@@ -60,20 +77,3 @@ timeout = "600s"
   lineNos            = true
   lineNumbersInTable = true
   tabWidth           = 4
-
-[comments]
-  enabled  = true
-  provider = "giscus"
-
-  [comments.giscus]
-    repo = "TrivikramAT/trivikramat.github.io"
-    repoId = "R_kgDOLDWvPQ"
-    category = "Announcements"
-    categoryId = "DIC_kwDOLDWvPc4C4XXG"
-    mapping = "pathname"
-    strict = 0
-    reactionsEnabled = 1
-    emitMetadata = 0
-    inputPosition = "bottom"
-    lang = "en"
-    theme = "preferred_color_scheme"
