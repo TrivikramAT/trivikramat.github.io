@@ -11,6 +11,9 @@ rssFullContent = true
     subtitle = "A dream you dream alone is only a dream. A dream you dream together is reality"
     avatar   = "img/avatar.jpg"
 
+  [params.imageProcessing]
+    autoOrient = true
+
   [params.widgets]
     page     = [{ type = "toc" }]
 
