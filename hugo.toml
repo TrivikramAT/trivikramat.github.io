@@ -24,9 +24,9 @@ timeout = "600s"
 
   [params.comments.giscus]
     repo = "TrivikramAT/trivikramat.github.io"
-    repo_id = "R_kgDOLDWvPQ"
+    repoId = "R_kgDOLDWvPQ"
     category = "General"
-    category_id = "DIC_kwDOLDWvPc4C4XXH"
+    categoryId = "DIC_kwDOLDWvPc4C4XXH"
     mapping = "pathname"
     strict = 0
     reactionsEnabled = 1
