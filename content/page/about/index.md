@@ -6,6 +6,7 @@ menu:
         weight: -90
         params:
             icon: user
+robots: "noindex"
 ---
 
 ## Home bases
