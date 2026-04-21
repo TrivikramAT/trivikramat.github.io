@@ -7,7 +7,8 @@ display_image: false
 ---
 
 # Highlights
-Before sunrise, hundreds of balloon owners lay out their balloons flat on the ground, and a handful of experienced folks fly up to gauge the wind conditions. If they see favorable wind conditions, they radio it down and a green flag is raised. It has begun!
+Albuquerque. Before sunrise. \
+Hundreds of balloon owners lay out their balloons flat on the ground, and a handful of experienced folks fly up to gauge the wind conditions. If they see favorable wind conditions, they radio it down and a green flag is raised. It has begun!
 
 ![](DSC08854.jpg)
 
@@ -34,3 +35,5 @@ The true beauty of this festival is the myriad of funky balloons that dot the sk
 ![](DSC09105.jpg)
 
 ![](DSC09117.jpg)
+
+> Special thanks to Chaitu, who constantly nagged me to visit Albuquerque every year till I finally did
