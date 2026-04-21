@@ -23,7 +23,8 @@ robots: "noindex"
 Photography, hiking, playing with my cats
 
 ## Show me your cats!!!
-Coming soon.... hold on.
+[Look here](/post/rocky-and-vetaal/)
+
 ## Countries visited, in order
 1. India
 2. Malaysia
