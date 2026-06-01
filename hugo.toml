@@ -9,7 +9,7 @@ timeout = "600s"
 
 [params]
   [params.sidebar]
-    subtitle = "A dream you dream alone is only a dream. A dream you dream together is reality"
+    subtitle = "Travel is fatal to prejuidce, bigotry, and narrow-mindedness."
     avatar   = "img/avatar.jpg"
 
   [params.imageProcessing]
