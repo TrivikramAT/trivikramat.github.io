@@ -24,9 +24,8 @@ timeout = "600s"
 
   [params.comments.remark42]
     host = "https://trivikram-github-blog.duckdns.org"
-    site = "trivikramat-github-blog
+    site = "trivikramat-github-blog"
     locale = "en"
-
 
 [[menu.social]]
   identifier = "github"
