@@ -20,20 +20,13 @@ timeout = "600s"
 
   [params.comments]
     enabled  = true
-    provider = "giscus"
+    provider = "remark42"
 
-  [params.comments.giscus]
-    repo = "TrivikramAT/trivikramat.github.io"
-    repoId = "R_kgDOLDWvPQ"
-    category = "General"
-    categoryId = "DIC_kwDOLDWvPc4C4XXH"
-    mapping = "pathname"
-    strict = 0
-    reactionsEnabled = 1
-    emitMetadata = 0
-    inputPosition = "bottom"
-    lang = "en"
-    theme = "preferred_color_scheme"
+  [params.comments.remark42]
+    host = "https://trivikram-github-blog.duckdns.org"
+    site = "trivikramat-github-blog
+    locale = "en"
+
 
 [[menu.social]]
   identifier = "github"
