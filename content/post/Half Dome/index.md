@@ -1,7 +1,7 @@
 ---
 date: 2026-06-14
 title: Half Dome
-image: DSC03064.jpg
+image: DSC03064.webp
 comments: true
 display_image: false
 ---
@@ -12,52 +12,52 @@ If you go in the right season (June / July), the Vernal fall has a strong enough
 
 Nevada falls has an equally strong flow and its own mist, but the trail is too far from it. We just enjoy the sight of the mist, and once we ascend Nevada falls we can dip our toes in the cool water just before the falls!
 
-![](DSC03015.jpg)
+![](DSC03015.webp)
 
 # Part 2 - The Long March through the Forest
 Nothing to see here. Literally! You've just gotta power through... just a gentle and long ascent through the forest, with an occasional chance of spotting bears!! We saw one for a brief two seconds as it crossed the trail and disappeared into the trees. If you _really_ want some photos, here's a cute tree I saw with clear distinction between its mature and growing leaves :)
 
-![](20260613_180954.jpg)
+![](20260613_180954.webp)
 
 # Part 3 - Sub Dome
 Now comes the part no one warned you about. See the big rock just in front of Half Dome? You've gotta scale that first. The first half is a bunch of switchbacks, similar to the Nevada falls ascent, but steeper. The second half is a steep rock face which you may need to scramble over to reach the top! I've highlighted the approximate path in yellow for you.
 
-![](DSC03038.jpg)  ![](DSC03038(1).jpg)
+![](DSC03038.webp)  ![](DSC03038(1).webp)
 
 Even regular hikers get winded. Take it slow! Don't compete with those high-achiever trail runners who pass by you saying "on your left"... think they are frickin Captain America or something -_-
 
-![](DSC03052.jpg)
+![](DSC03052.webp)
 
 # Part 4 - Half Dome
 First reaction - Holy mother of God, I've gotta scale that?!!
 
-![](DSC03064.jpg)
+![](DSC03064.webp)
 
 And then you approach it, and you think "OK that doesn't seem so bad??"
 
-![](20260613_150605.jpg)
+![](20260613_150605.webp)
 
 INCORRECT!!! It's steeeep. And the rock is somewhat slippery as well, after decades of people climbing it. See the extra bright, shiny surfaces in the second image?? Slippery rock. 
 
-![](20260613_150230.jpg)  ![](20260613_150037.jpg)
+![](20260613_150230.webp)  ![](20260613_150037.webp)
 
 The view from halfway up - mostly dominated by Sub Dome. You conquered the ascent from the valley, and then you conquered Sub Dome. This is what you do. You come, you see, you conquer. Keep going!
 
-![](20260613_125302.jpg)
+![](20260613_125302.webp)
 
 # Now we enjoy the views
 The snow covered mountains that feed most of Yosemite's rivers.
 
-![](DSC03065.jpg)
+![](DSC03065.webp)
 
 The massive swatches of conifer forests whose trees are quite big, but seem like beard stubble on Yosemite's granite formations. 
 
-![](DSC03066.jpg)
+![](DSC03066.webp)
 
 The vast expanses of granite that Yosemite is famous for. Fun fact, when you fly over Yosemite on planes, this is mostly what you'll see.
 
-![](DSC03069.jpg)
+![](DSC03069.webp)
 
 And finally, the Yosemite valley itself. If I had my zoom lens with me, I could have seen Tunnel View. My first ever post looked at Half Dome from Tunnel View. How the tables have turned!
 
-![](DSC03095.jpg)
+![](DSC03095.webp)
