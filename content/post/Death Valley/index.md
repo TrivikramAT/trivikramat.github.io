@@ -2,7 +2,7 @@
 date: 2026-04-29
 title: Death Valley, Night Edition
 image: DSC02666.webp
-comments: true
+comments: false
 display_image: false
 ---
 ## Badwater Basin

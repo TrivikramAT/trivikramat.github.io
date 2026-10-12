@@ -2,7 +2,7 @@
 date: 2026-06-20
 title: Yellowstone
 image: DSC07910.webp
-comments: true
+comments: false
 display_image: false
 ---
 # Hot Springs for days

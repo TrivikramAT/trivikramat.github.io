@@ -2,7 +2,7 @@
 date: 2026-09-01
 title: Hall of Mosses, Olympic NP
 image: _DSC3815.webp
-comments: true
+comments: false
 display_image: false
 ---
 

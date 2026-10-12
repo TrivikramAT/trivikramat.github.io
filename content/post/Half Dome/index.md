@@ -2,7 +2,7 @@
 date: 2026-06-14
 title: Half Dome
 image: DSC03064.webp
-comments: true
+comments: false
 display_image: false
 ---
 # Part 1 - The Mist Trail

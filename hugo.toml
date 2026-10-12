@@ -19,13 +19,7 @@ timeout = "600s"
     page     = [{ type = "toc" }]
 
   [params.comments]
-    enabled  = true
-    provider = "remark42"
-
-  [params.comments.remark42]
-    host = "https://trivikram-github-blog.duckdns.org"
-    site = "trivikramat-github-blog"
-    locale = "en"
+    enabled  = false
 
 [[menu.social]]
   identifier = "github"

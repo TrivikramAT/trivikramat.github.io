@@ -2,7 +2,7 @@
 date: 2026-03-06
 title: Yosemite in Winter
 image: DSC01489.webp
-comments: true
+comments: false
 display_image: false
 ---
 
